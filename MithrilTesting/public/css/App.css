@@ -1,0 +1,61 @@
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    /*animation: App-logo-spin infinite 20s linear;*/
+    height: 44px;
+    margin-top: 2px;
+}
+
+.App-header {
+    background-color: #222;
+    height: 150px;
+    padding: 20px;
+    color: white;
+}
+
+.App-intro {
+    font-size: large;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@media (min-width: 767px) {
+    .navbar-nav > li {
+        float: right;
+        margin-top: 20px;
+    }
+}
+
+nav {
+    height: 160px;
+    padding: 30px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    background-color: #e95420;
+}
+
+.login-button{
+    width: 191px;
+    height: 46px;
+}
+
+.login-button-facebook{
+    width: 210px;
+    height: 51px;
+    margin-left: 10px;
+}
