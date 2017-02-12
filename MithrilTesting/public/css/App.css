@@ -1,5 +1,6 @@
 .App {
     text-align: center;
+    width: 100%;
 }
 
 .App-logo {
@@ -43,10 +44,11 @@ nav {
 .footer {
     position: absolute;
     bottom: 0;
-    width: 100%;
+    width: 80%;
     /* Set the fixed height of the footer here */
     height: 60px;
     background-color: #e95420;
+    margin: 0 auto;
 }
 
 .login-button{
