@@ -12,7 +12,7 @@ var Header = {
               m("img[alt='Brand'][class='App-logo'][src='./public/images/logo.svg']")
             )
           ),
-          m("h1[class='col-md-4']",
+          m("h1[class='col-md-4 title-header']",
             "Welcome To StudyWars!"
           ),
           m("ul[class='nav navbar-nav navbar-right col-md-4']",
